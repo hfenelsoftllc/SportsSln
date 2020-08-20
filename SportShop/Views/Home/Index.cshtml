@@ -1,0 +1,32 @@
+@model ProductsListViewModel
+<h4 class="text-center">
+    Welcome to Sport Shop
+</h4>
+<div >
+    
+    <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            @foreach (var item in Model.Products)
+            {
+                
+                    
+                        <tbody>
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Price.ToString("c")</td>
+                                <td>@item.Description</td>
+                                <td>@item.Category</td>
+                            </tr>
+                        </tbody>
+                    
+            }
+    </table>
+            <div page-Model="@Model.PagingInfo" page-action="Index"></div>
+</div>
