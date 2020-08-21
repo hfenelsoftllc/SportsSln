@@ -10256,7 +10256,7 @@
         }
       },
       {
-        "HashCode": -1747174527,
+        "HashCode": -232469974,
         "Kind": "ITagHelper",
         "Name": "SportShop.Infrastructure.PageLinkTagHelper",
         "AssemblyName": "SportShop",
@@ -10286,6 +10286,14 @@
             "TypeName": "System.String",
             "Metadata": {
               "Common.PropertyName": "PageAction"
+            }
+          },
+          {
+            "Kind": "ITagHelper",
+            "Name": "page-classes-enabled",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "PageClassesEnabled"
             }
           }
         ],
@@ -14431,8 +14439,8 @@
   "RootNamespace": "SportShop",
   "Documents": [
     {
-      "FilePath": "c:\\devproject\\SportsSln\\SportShop\\Views\\Shared\\_LayoutUser.cshtml",
-      "TargetPath": "Views\\Shared\\_LayoutUser.cshtml",
+      "FilePath": "c:\\devproject\\SportsSln\\SportShop\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -7848,7 +7848,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hfenelsoftllc\\.nuget\\packages\\": {},
+    "C:\\Users\\hfene\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -7857,14 +7857,14 @@
       "projectUniqueName": "C:\\devproject\\SportsSln\\SportShop.Tests\\SportShop.Tests.csproj",
       "projectName": "SportShop.Tests",
       "projectPath": "C:\\devproject\\SportsSln\\SportShop.Tests\\SportShop.Tests.csproj",
-      "packagesPath": "C:\\Users\\hfenelsoftllc\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\hfene\\.nuget\\packages\\",
       "outputPath": "C:\\devproject\\SportsSln\\SportShop.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hfenelsoftllc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hfene\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7928,7 +7928,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
