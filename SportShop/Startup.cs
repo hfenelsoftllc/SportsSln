@@ -15,7 +15,7 @@ namespace SportShop
 {
     public class Startup
     {
-        private IConfiguration _config;
+        private IConfiguration _config { get; set; }
 
         public Startup(IConfiguration config)
         {
@@ -54,7 +54,7 @@ namespace SportShop
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute("pagination",
-                "Products/Page(productPage)",
+                "Products/Page{productPage}",
                 new{Controller="Home", action="Index"});
                 endpoints.MapDefaultControllerRoute();
 

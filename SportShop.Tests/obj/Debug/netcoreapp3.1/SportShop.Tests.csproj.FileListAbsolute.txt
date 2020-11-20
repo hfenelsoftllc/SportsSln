@@ -3,7 +3,6 @@ C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\SportShop.Views.
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\appsettings.json
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\global.json
-C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\SportShop.exe
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\devproject\SportsSln\SportShop.Tests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Moq;
 using SportShop.Infrastructure;
+using SportShop.Models.ViewModels;
 using Xunit;
 
 namespace SportShop.Tests{
@@ -22,11 +23,13 @@ public class PageLinkTagHelperTests{
         .Returns("Test/Page3");
 
     var urlHelperFactory = new Mock<IUrlHelperFactory>();
-    urlHelperFactory.Setup(f =>f.GetUrlHelper(It.IsAny<ActionContext>()))
+        urlHelperFactory.Setup(f =>
+            f.GetUrlHelper(
+                It.IsAny<ActionContext>()))
             .Returns(urlHelper.Object);
 
     PageLinkTagHelper helper = new PageLinkTagHelper(urlHelperFactory.Object){
-        PageModel = new Models.ViewModels.PagingInfo{
+        PageModel = new PagingInfo{
             CurrentPage =2,
             TotalItems = 28,
             ItemsPerPage =10
