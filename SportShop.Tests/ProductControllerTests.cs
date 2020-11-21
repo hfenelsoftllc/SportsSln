@@ -14,38 +14,7 @@ namespace SportShop.Tests
 {
     public class ProductControllerTests
     {
-        [Fact]
-        public void Can_Select_Category()
-        {
-            // I assert that the duplicates are removed and that alphabetical ordering is imposed
-
-            //Arrange
-            Mock<ISportShopRepository> mock = new Mock<ISportShopRepository>();
-            mock.Setup(m => m.Products).Returns((new Product[]{
-                new Product{ProductID=1, Name="P1",Category="Apples" },
-                new Product{ProductID=2, Name="P2",Category="Apples" },
-                new Product{ProductID=3, Name="P3",Category="Plume" },
-                new Product{ProductID=3, Name="P4",Category="Lemon" },
-                new Product{ProductID=3, Name="P5",Category="Plume" },
-                new Product{ProductID=4, Name="P6",Category="Orange" },
-                new Product{ProductID=3, Name="P7",Category="Orange" },
-                new Product{ProductID=5, Name="P8",Category="Strawberry" },
-                //new Product{ProductID=6, Name="P6" }
-            }).AsQueryable<Product>());
-
-            NavigationMenuViewComponent target = new NavigationMenuViewComponent(mock.Object);
-            //target.PageSize = 3;
-
-            //Act
-            string[] results =((IEnumerable<string>)(target.Invoke() as ViewComponentResult).ViewData.Model).ToArray();
-
-            //Assert
-          
-            Assert.True(Enumerable.SequenceEqual(new string[] {"Apples", "Lemon","Plume","Orange","Strawberry" }, results));
-            
-        }
-
-        [Fact]
+       [Fact]
         public void Can_Use_Repository()
         {
             //Arrange
