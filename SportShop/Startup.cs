@@ -28,7 +28,7 @@ namespace SportShop
         {
             services.AddControllersWithViews();
             services.AddDbContext<SportShopDbContext>(opts =>{
-                opts.UseSqlServer(
+                opts.UseNpgsql(
                 _config["ConnectionStrings:SportShopCon"]);
                 });
 
