@@ -31,7 +31,7 @@ namespace SportShop.Controllers{
                         ItemsPerPage = PageSize,
                         TotalItems = repository.Products.Count()
                     },
-                    CurrencyCategory = category
+                    CurrentCategory = category
 
                 }); 
     }
